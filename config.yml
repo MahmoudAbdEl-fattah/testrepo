@@ -37,3 +37,4 @@ workflows:
           requires:
             - build
           post-steps:
+            - slack/status
